@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+/* 課題06のCSS
+========================================================================== */
+* {
+    box-sizing:border-box; 
+}
+
+body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+img {
+    max-width:100%;
+    height:auto;
+}
+
+li {
+    margin-left: 40px;
+}
+
+li a {
+    color: #000;
+}
+
+ul {
+    display: flex;
+}
+
+nav {
+    margin-left: auto;
+}
+
+/* header */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.button {
+    background-color: #FD6F00;
+    color: #fff;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+
+/* introduce */
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1400px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0;
+    flex-wrap: wrap;
+}
+
+.col-md-6 {
+    flex: 0 0 48%;
+    max-width: 48%;
+}
+
+.col-md-6 p {
+    padding: 1rem 0;
+}
+
+.hire {
+    text-align: center;
+}
+
+.hire a {
+    background-color: #FD6F00;
+    color: #fff;
+    border-radius: 5px;
+    width: 7rem;
+    padding: 0.5rem;
+}
+
+/* .person {
+    height: 70%;
+    width: auto;
+} */
+
+.icon {
+    text-align: center;
+}
+
+/* footer */
+footer {
+    background-color: #F8F8F8;
+    text-align:center;
+    padding: 5rem 0;
+}
+
+footer nav ul {
+    justify-content: center;
+    padding: 5rem 0;
+}
+
+/* copyright */
+.copyright {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #545454;
+    color: #FFFFFF;
+}
+
+.copyright span {
+    color: #FD6F00;
+}
