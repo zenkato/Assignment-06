@@ -80,6 +80,10 @@ header {
     padding: 1rem 0;
 }
 
+.content-center {
+    text-align: center;
+}
+
 .hire {
     text-align: center;
 }
@@ -92,13 +96,16 @@ header {
     padding: 0.5rem;
 }
 
-/* .person {
-    height: 70%;
-    width: auto;
-} */
+.person {
+    margin: 0 0 2rem 0;
+}
 
-.icon {
-    text-align: center;
+/* Services */
+figure {
+    flex: 0 0 19%;
+    background-color: #F8F8F8;
+    padding: 2rem 3rem;
+    border-radius: 5px;
 }
 
 /* footer */
