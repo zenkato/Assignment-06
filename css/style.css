@@ -68,7 +68,6 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 3rem 0;
-    flex-wrap: wrap;
 }
 
 .col-md-6 {
@@ -101,11 +100,42 @@ header {
 }
 
 /* Services */
-figure {
+section:nth-child(3) figure {
     flex: 0 0 19%;
     background-color: #F8F8F8;
     padding: 2rem 3rem;
     border-radius: 5px;
+}
+
+/* My Projects */
+.row2 {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+.button1 {
+    display: inline-block;
+    margin: 0 15px;
+    background-color: #F8F8F8;
+    color: #000;
+    padding: 0 20px;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+}
+
+.button2 {
+    background-color: #FD6F00;
+    color: #fff;
+    padding: 0 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin:0 15px;
+}
+
+section:last-child figure p {
+    padding: 1rem 0 0 0;
+    color: #FD6F00;
 }
 
 /* footer */
