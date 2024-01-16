@@ -18,7 +18,7 @@ a {
 }
 
 img {
-    max-width:100%;
+    max-width: 100%;
     height:auto;
 }
 
@@ -36,6 +36,20 @@ ul {
 
 nav {
     margin-left: auto;
+}
+
+.relative {
+    position: relative;
+}
+
+.box {
+    position: absolute;
+    margin       : auto;
+    width        : 50%;
+    height       : 15%;
+    background   : rgba(255, 127, 0, 0.55);
+    top: 10%;
+    left: 25%;
 }
 
 /* header */
@@ -101,10 +115,10 @@ header {
 
 /* Services */
 section:nth-child(3) figure {
-    flex: 0 0 19%;
     background-color: #F8F8F8;
-    padding: 2rem 3rem;
+    padding: 2rem 2rem 2rem 1rem;
     border-radius: 5px;
+    margin: 0 1rem 2rem 2rem;
 }
 
 /* My Projects */
@@ -137,6 +151,10 @@ section:last-child figure p {
     padding: 1rem 0 0 0;
     color: #FD6F00;
 }
+
+/* section:last-child p {
+    padding: 0 0 3rem 0;
+} */
 
 /* footer */
 footer {
