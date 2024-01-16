@@ -209,4 +209,46 @@ footer nav ul {
         width: 24rem;
         padding: 1rem 0;
     }
+
+    .reverse {
+        order: 2;
+    }
+
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .pb-3 {
+        padding-bottom: 3rem;
+    }
+
+    .pt-3 {
+        padding-top: 3rem;
+    }
+
+    .row2 {
+        flex-wrap: wrap;
+        gap: 8px 0px;
+        padding: 1.5rem 0;
+    }
+
+    .pt-0 {
+        padding-top: 0;
+    }
+
+    h4 {
+        margin: 0;
+        padding: 0.5rem 0;
+    }
+
+    footer {
+        padding: 5rem 0 2.5rem 0;
+    }
+
+    footer nav ul {
+        flex-wrap: wrap;
+        gap: 6px 0px;
+        padding: 2rem 0;
+    }
 }
