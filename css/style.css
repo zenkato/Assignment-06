@@ -38,6 +38,12 @@ nav {
     margin-left: auto;
 }
 
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
 .relative {
     position: relative;
 }
@@ -82,11 +88,6 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 3rem 0;
-}
-
-.col-md-6 {
-    flex: 0 0 48%;
-    max-width: 48%;
 }
 
 .col-md-6 p {
@@ -152,10 +153,6 @@ section:last-child figure p {
     color: #FD6F00;
 }
 
-/* section:last-child p {
-    padding: 0 0 3rem 0;
-} */
-
 /* footer */
 footer {
     background-color: #F8F8F8;
@@ -178,4 +175,38 @@ footer nav ul {
 
 .copyright span {
     color: #FD6F00;
+}
+
+/* responsive */
+@media (min-width: 420px) {
+    .col-md-6 {
+        flex: 0 0 48%;
+        max-width: 48%;
+    }
+}
+
+@media (max-width: 420px) {
+    /* nav barを非表示 */
+    #navi {
+        display: none;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .intro {
+        padding: 0 0 3rem 0;
+    }
+
+    .hire {
+        display:flex;
+        justify-content:center;
+        padding: 1rem 0 2rem 0;
+    }
+
+    .hire a {
+        width: 24rem;
+        padding: 1rem 0;
+    }
 }
